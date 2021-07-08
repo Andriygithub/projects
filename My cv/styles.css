@@ -1,0 +1,145 @@
+h1 {
+    font-size:48px;
+}
+h2{
+    font-size:25px;
+  text-transform: uppercase;
+    line-height: 1.5;
+}
+
+h3{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+li{
+    line-height: 1.5;
+}
+li a{
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+}
+
+.color:hover{
+    color: rgba(172, 45, 45, 0.541);
+}
+.color2:hover{
+    color:#0056ff;
+}
+.color3:hover{
+    color: green;
+}
+.time{
+    line-height: 0;
+    font-size: 12px;
+
+}
+p a {
+   color:rgba(255, 255, 255, 0.637) ;
+    text-decoration:none ;
+}
+p a:hover{
+    color: white;
+}
+
+section {
+    margin-bottom: 50px;
+
+}
+aside{
+    min-height: 300px;
+    background-color: #1e2939;
+    width: 300px;
+    padding-bottom: 10px;
+}
+img{
+    width: 100%;
+}
+.contacts-title{
+text-transform: capitalize;
+color: white;
+margin-bottom: 0;
+}
+.contacts{
+    font-size: 16px;
+}
+.formated-list{
+list-style: none;
+margin-bottom: 28px;
+/* color:white; */
+
+}
+.ok::before{
+    content:"\2714 \2002";
+    color: chocolate;
+ }
+ .list-skills::before{
+content: "\25BA \2003";
+color: gray;
+ }
+ .list-skills{
+     color: rgb(233, 229, 229);
+ }
+ .phone::before{
+     content: "\2003 \260E \2003";
+     color: white;
+ }
+ .email::before{
+     content: " \2003 \2709 \2003";
+     color: white;
+ }
+ .list-work::before{
+     content: "\2022 \2003";
+     color: rgb(224, 63, 14);
+ }
+ .container{
+     display: flex;
+     width: 1200px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #fff;
+     box-shadow: 10px 10px 10px 10px #767e8f;
+     
+ }
+ .right-side{
+ order: 1;
+
+     margin-left: 40px;
+ }
+ .left-side{
+/* height:1370; */
+box-shadow: 10px 10px 10px 10px #767e8f;
+background-color: #1e2939;
+
+ }
+.left-info{
+    padding-left: 20px;
+    height: 100%;
+}
+aside {
+/* color:cornsilk; */
+}
+
+.skills {
+margin-top: 70px;
+}
+
+body{
+    background-color: #f5f7fa;
+}
+#btn2, #btn1{ 
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    line-height: 2em;
+    padding: 1px 1.2em;
+    border-radius: 5px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+    inset 0 1px rgba(101,114,126,1),
+    inset 0 0 1px rgba(140,150,170,.8),
+    0 1px rgb(83,94,104),
+    0 0 1px rgb(86,96,106);
+    min-width: 100px;
+}
+
